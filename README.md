@@ -1,7 +1,10 @@
 ### Description 
 
-This is a simple Discord bot that will send a message to a channel 
-only when mentioned. The bot is not responding on private conversations.
+This is a simple Discord bot that will respond to messages. 
+It responds to:
+- mentions
+- Direct Messages (DMs)
+- all other messages in channels that bot has access to
 
 ### Installation
 
