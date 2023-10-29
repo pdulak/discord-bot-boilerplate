@@ -1,4 +1,4 @@
-const { Events, Channel } = require('discord.js');
+const { Events } = require('discord.js');
 
 module.exports = {
     name: Events.MessageCreate,
@@ -12,7 +12,7 @@ module.exports = {
 
         if (message.mentions.users.first() && message.mentions.users.first().id === process.env.DISCORD_BOT_APPLICATION_ID) {
             message.reply(`Mention received`);
-        } else if (message.channel.type == 1) {
+        } else if (message.channel.type === 1) {
             message.reply(`Direct message`);
         } else {
             message.reply(`General message`);
