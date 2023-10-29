@@ -1,3 +1,8 @@
+### Description 
+
+This is a simple Discord bot that will send a message to a channel 
+only when mentioned. The bot is not responding on private conversations.
+
 ### Installation
 
 1. `bun install`
